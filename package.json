@@ -1,0 +1,15 @@
+{
+  "name": "create-renku",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch index.ts"
+  },
+  "dependencies": {
+    "renku": "link:renku"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "bun-plugin-tailwind": "latest"
+  }
+}
